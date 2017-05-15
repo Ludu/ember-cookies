@@ -195,7 +195,7 @@ export default Service.extend({
     if (options.secure) {
       cookie = `${cookie}; secure`;
     }
-    if (options.HttpOnly) {
+    if (options.httpOnly) {
       cookie = `${cookie}; HttpOnly`; 
     }
     if (!isEmpty(options.path)) {
